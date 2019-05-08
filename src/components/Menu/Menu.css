@@ -1,0 +1,29 @@
+.menu {     
+  width: 100%;
+  position: absolute;
+  box-shadow: 1px 1px 1px #d6d6d6;  
+  z-index: 99; 
+}
+
+.menu-itens {
+  position: relative;
+  display: flex;      
+  
+}
+
+.menu-itens .menu-item {     
+  text-align: center;
+  min-width: 100px;
+  border-right: 1px solid #d6d6d6;
+  padding: 16px;
+  
+}
+
+
+
+
+
+.menu-itens .menu-item:first-child {
+  /* border: none; */
+}
+
